@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-script: "Dancing Script", cursive;
+  
+  --color-cream: #FDFBF7;
+  --color-ink: #3A4B31;
+  --color-accent: #B89B5E;
+  --color-accent-light: #E8DCC8;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
